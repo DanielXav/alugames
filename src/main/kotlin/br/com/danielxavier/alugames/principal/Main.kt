@@ -12,7 +12,7 @@ fun main() {
     val gamer = Gamer.criarGamer(leitura)
     println("Cadastro concluido com sucesso. Dados do gamer:")
     println(gamer)
-    println("Idade do gamer: " + gamer.dataNascimento?.transformarEmIdade())
+    1
 
     do {
         println("Digite um código de jogo para buscar:")
